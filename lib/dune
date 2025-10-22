@@ -1,0 +1,6 @@
+(library
+ (preprocess (pps ppx_deriving.show))
+ (name rocq_lsp_client)
+ (libraries unix yojson))
+
+(env (dev (flags (:standard -warn-error -A))))
