@@ -1,0 +1,7 @@
+(executable
+ (public_name rocq_lsp_client_sample)
+ (name main)
+
+ (libraries unix yojson rocq_lsp_client))
+
+(env (dev (flags (:standard -warn-error -A))))
